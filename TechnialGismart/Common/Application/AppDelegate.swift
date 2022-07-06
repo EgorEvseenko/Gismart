@@ -1,17 +1,18 @@
 //
 //  AppDelegate.swift
-//  TechnialGismart
+//  Techical
 //
-//  Created by Егор Евсеенко on 7.07.22.
+//  Created by Egor Evseenko on 05.07.22.
 //
 
 import UIKit
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
-
-
-
+    func application(_ application: UIApplication, supportedInterfaceOrientationsFor window: UIWindow?) -> UIInterfaceOrientationMask {
+        return UIInterfaceOrientationMask.landscape
+    }
+    
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         return true
